@@ -1,0 +1,29 @@
+# Node dependencies & build outputs
+node_modules/
+frontend/dist/
+dist/
+build/
+
+# Environment / Secret Files (Matches .env at root and in backend/)
+**/.env
+**/.env.*
+!.env.example
+
+# Python virtual environments & bytecode caches
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# Local & user database / history files
+backend/data/history.json
+*.sqlite3
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,8 @@
+node_modules/
+frontend/dist/
+__pycache__/
+.venv/
+venv/
+.env
+backend/data/history.json
+.pytest_cache/
